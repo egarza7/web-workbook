@@ -1,9 +1,13 @@
 'use strict';
 
-$(document).ready(function() {
+//$(document).ready(function() {
   // Put app logic in here
-  var move = 1;
-  var play = true;
+  function startGame(){
+    document.turn = "X";
+  }
 
-  $("#board ")
-});
+  function nextMove(square){
+    square.innerText = document.turn;
+  }
+
+//});
